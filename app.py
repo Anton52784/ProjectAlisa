@@ -103,7 +103,7 @@ def alice_webhook():
 
     if is_new:
         greeting = "Привет! Я навык, использующий нейросети. Напиши /config чтобы настроить меня."
-        image_id = "213044/24fe38714d70baa1a3d0" 
+        image_id = "1030494/2a7140fed83b7fb9dbdb" 
         return make_alice_response(greeting, image_id=image_id, session_state={"history": []})
 
     if user_text == '/stop':
